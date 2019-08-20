@@ -9,7 +9,7 @@ namespace example_html_to_pdf_dotnet
     {
 
         // Convert HTML to PDF.
-        // Import the ceTe.DynamicPDF namespace for the PageInfo, HtmlLayout and Document classes.
+        // Use the ceTe.DynamicPDF namespace for the PageInfo, HtmlLayout and Document classes.
         static void Main(string[] args)
         {
             //Create a PageInfo object with required page settings
