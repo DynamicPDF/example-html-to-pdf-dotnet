@@ -5,15 +5,11 @@ namespace example_html_to_pdf_dotnet
 {
     // This example shows how to convert HTML to PDF.
     // It references the ceTe.DynamicPDF.CoreSuite.NET NuGet package.
-
-    // Converts HTML to PDF files
-    // This code uses DynamicPDF Generator for .NET product
-    // ceTe.DynamicPDF namespace is imported for PageInfo, HtmlLayout and Document classes
     class Program
     {
 
         // Convert HTML to PDF.
-        // Import the ceTe.DynamicPDF namespace.
+        // Import the ceTe.DynamicPDF namespace for the PageInfo, HtmlLayout and Document classes.
         static void Main(string[] args)
         {
             //Create a PageInfo object with required page settings
