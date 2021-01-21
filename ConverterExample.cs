@@ -10,7 +10,7 @@ namespace example_html_to_pdf_dotnet
         {
             HtmlConversionOptions options = new HtmlConversionOptions(false);
             HtmlConverter htmlConverter = new HtmlConverter(new Uri(@"http://www.google.com"), options);
-            htmlConverter.Convert("output.pdf");
+            htmlConverter.Convert("converter-output.pdf");
         }
     }
 }

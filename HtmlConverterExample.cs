@@ -18,7 +18,7 @@ namespace example_html_to_pdf_dotnet
             options.Footer = "<div style=\"text-align:center;display:inline-block;width:100%;font-size:12px;\">" +
                 "Page <span class=\"pageNumber\"></span> of <span class=\"totalPages\"></span></div>";
             // Convert with Options          
-            Converter.Convert(new Uri("https://www.google.com"), "output.pdf", options);
+            Converter.Convert(new Uri("https://www.google.com"), "html-converter-output.pdf", options);
         }
     }
 }

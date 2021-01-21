@@ -27,7 +27,7 @@ namespace example_html_to_pdf_dotnet
 
             //Get Document and save
             Document document = html.Layout();
-            document.Draw("output.pdf");
+            document.Draw("core-suite-output.pdf");
         }
 
     }
