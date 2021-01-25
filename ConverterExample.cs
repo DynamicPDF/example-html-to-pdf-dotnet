@@ -9,7 +9,7 @@ namespace example_html_to_pdf_dotnet
         public static void Convert()
         {
             HtmlConversionOptions options = new HtmlConversionOptions(false);
-            HtmlConverter htmlConverter = new HtmlConverter(new Uri(@"http://www.google.com"), options);
+            HtmlConverter htmlConverter = new HtmlConverter(new Uri(@"https://en.wikipedia.org"), options);
             htmlConverter.Convert("converter-output.pdf");
         }
     }

@@ -11,7 +11,7 @@ namespace example_html_to_pdf_dotnet
             //Create a PageInfo object with required page settings
             PageInfo layoutPage = new PageInfo(PageSize.A4, PageOrientation.Portrait);
             //Create a Uri to be converte to PDF
-            Uri uri = new Uri(@"http://www.google.com");
+            Uri uri = new Uri(@"https://en.wikipedia.org");
 
             //Create a HtmlLayout object using Uri and PageInfo
             HtmlLayout html = new HtmlLayout(uri, layoutPage);
