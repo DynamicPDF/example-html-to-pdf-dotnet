@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="ceTe.DynamicPDF.Converter.NET" Version="3.19.0" />
-    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="12.4.0" />
-    <PackageReference Include="ceTe.DynamicPDF.HtmlConverter.NET" Version="1.11.0" />
+    <PackageReference Include="ceTe.DynamicPDF.CoreSuite.NET" Version="12.34.0" />
+    <PackageReference Include="ceTe.DynamicPDF.HtmlConverter.NET" Version="2.4.0" />
   </ItemGroup>
 
 </Project>
